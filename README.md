@@ -7,8 +7,8 @@
 ## Installation
 
 ```bash
-  git clone https://github.com/your_username_/Project-Name.git
-  cd Project-Name
+  git clone git@github.com:Tonystark121/Spirit-24Website.git
+  cd Spirit-24Website
   npm install
 ```
     
