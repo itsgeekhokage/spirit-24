@@ -1,0 +1,120 @@
+/** @format */
+
+.page {
+  width: 100%;
+  background: linear-gradient(135deg, #52247f 20%, #00a7b5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+  height: 100vh;
+}
+
+.cd {
+  border: 2px solid #000;
+  background-color: whitesmoke;
+  width: max-content;
+  margin-bottom: -2rem;
+  display: flex;
+  padding: 0.5rem 3rem;
+  gap: 7px;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.cdBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cdTime,
+.cdColon {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cdText {
+  font-size: 1rem;
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 65%;
+}
+.leftMain {
+  width: 30%;
+  position: relative;
+  padding: 0 10rem;
+  img {
+    width: 60%;
+    height: 60%;
+  }
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+  }
+  .img2 {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+}
+.rightMain {
+  width: 65%;
+  padding: 3rem 0;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  p {
+    font-size: 1rem;
+  }
+  div {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      background-color: #52247f;
+      padding: 0.5rem 1rem;
+      border: 0;
+      border-radius: 1rem;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+.thirdRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.leftRow {
+  font-size: 2.5rem;
+  font-weight: bold;
+  transform: rotate(270deg);
+  transform-origin: center;
+  color: white;
+  height: 100%;
+}
+.rightRow {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .themes {
+    height: 4rem;
+    width: 30%;
+    background-color: white;
+    margin: 0.5rem;
+    border-radius: 1rem;
+  }
+}

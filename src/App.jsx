@@ -1,10 +1,10 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
+import About from "./Pages/About";
 
 function App() {
-
-  return (
-    <h1>Hello World!</h1>
-  )
+  return <About />;
 }
 
-export default App
+export default App;
