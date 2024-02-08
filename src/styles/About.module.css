@@ -8,6 +8,8 @@
   align-items: center;
   padding: 2rem 4rem;
   height: 100vh;
+  position: relative;
+  z-index: 10;
 }
 
 .cd {
@@ -116,5 +118,9 @@
     background-color: white;
     margin: 0.5rem;
     border-radius: 1rem;
+    display: flex;
+    padding: 0.5rem 3rem;
+    align-items: center;
+    gap: 20px;
   }
 }
