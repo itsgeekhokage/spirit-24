@@ -1,11 +1,10 @@
-import React from 'react'
 import Navbar from './Pages/Navbar'
 import Footer from './Pages/Footer'
 import Event from './Pages/Event'
 
-function App() {
+import React from "react";
+import About from "./Pages/About";
 
-  return (
     <>
        <Navbar />
        <Event />
@@ -14,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
