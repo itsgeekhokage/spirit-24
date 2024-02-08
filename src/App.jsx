@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './Pages/Navbar'
+import Footer from './Pages/Footer'
 
 function App() {
 
   return (
-    <h1>Hello World!</h1>
+    <>
+       <Navbar />
+       <Footer />
+    </>
   )
 }
 

@@ -1,0 +1,47 @@
+.wrapper {
+    background: linear-gradient(135deg, #52247f 20%, #00a7b5);
+    margin: 0;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: medium;
+}
+button {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #f1356d;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    font-size: medium;
+    letter-spacing: 1px;
+    box-shadow: 2px 6px 5px #000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
