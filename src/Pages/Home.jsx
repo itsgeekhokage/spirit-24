@@ -8,7 +8,7 @@ const Home = () => {
     <div className={styles.home}>
       <div className={styles.firstRow}>International Conference on</div>
       <div className={styles.container}>
-        <video
+        {/* <video
           autoPlay
           muted
           loop
@@ -17,7 +17,8 @@ const Home = () => {
             src="/others/home.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> */}
+        {/* <div className={styles.video}></div> */}
         <div className={styles.thirdRow}>
           <div className={styles.thirdRowLeft}>
             <h2>The Annual Techno-Pharma Conclave</h2>

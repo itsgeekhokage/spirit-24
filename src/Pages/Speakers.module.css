@@ -2,7 +2,7 @@
 
 .page {
   width: 100%;
-  background: url("/images/bg.png");
+  /* background: url("/images/bg.png"); */
   background-repeat: 5;
   display: flex;
   padding: 4rem 15rem;
@@ -24,6 +24,8 @@
   background: linear-gradient(to bottom, #52247f, #00a7b5);
   padding: 4px;
   border-radius: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .card_main {
   width: 100%;

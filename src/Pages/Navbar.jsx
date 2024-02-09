@@ -12,7 +12,7 @@ const Navbar = () => {
                     <a href="/events">Schedule</a>
                     <a href="/contact">Events</a>
                     <a href="/about">Team</a>
-                    <button>
+                    <button className={styles.button}>
                         <a href="/login">Register</a>
                     </button>
                 </div>
