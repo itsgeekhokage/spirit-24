@@ -1,5 +1,8 @@
 /** @format */
-
+:root{
+  --primaryColor : rgb(0, 68, 255);
+  --secondaryColor : rgba(0, 68, 255, 0.644);
+}
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap");
 * {
   margin: 0;

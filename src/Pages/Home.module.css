@@ -2,23 +2,15 @@
 
 .home {
   width: 100%;
-  height: 100vh;
   margin-bottom: -10rem;
-  margin-top: 80px;
   position: relative;
 }
 .container {
   width: 100%;
-  height: 100%;
   overflow: hidden;
   left: 0;
-  z-index: -10;
 }
-.video {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
+
 .firstRow {
   font-weight: bold;
   position: absolute;

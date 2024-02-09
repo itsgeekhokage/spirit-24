@@ -2,14 +2,13 @@
 
 .page {
   width: 100%;
-  background: linear-gradient(135deg, #52247f 20%, #00a7b5);
+  /* background: linear-gradient(135deg, #52247f 20%, #00a7b5); */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem 4rem;
   height: 100vh;
   position: relative;
-  z-index: 10;
 }
 
 .cd {
@@ -22,6 +21,8 @@
   gap: 7px;
   z-index: 1;
   border-radius: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .cdBlock {
@@ -48,6 +49,8 @@
   display: flex;
   justify-content: space-between;
   height: 65%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .leftMain {
   width: 30%;
@@ -103,7 +106,7 @@
   font-weight: bold;
   transform: rotate(270deg);
   transform-origin: center;
-  color: white;
+  color: var(--primaryColor);
   height: 100%;
 }
 .rightRow {
@@ -117,10 +120,12 @@
     width: 30%;
     background-color: white;
     margin: 0.5rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     display: flex;
     padding: 0.5rem 3rem;
     align-items: center;
     gap: 20px;
+    box-shadow: rgba(60, 64, 67, 0.078) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
 }
