@@ -52,24 +52,24 @@
 }
 
 .last .btn button {
-  padding: 1.8%;
-  background-color: #009d9a;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-  border: none;
-  width: 40%;
-  font-size: medium;
-  margin-top: 7%;
-  transition: 0.3s ease-in-out;
-  border: 2px solid #009d9a;
+  padding: 1.8% !important;
+  background-color: #009d9a !important;
+  border-radius: 30px !important;
+  color: white !important;
+  font-weight: bold !important;
+  border: none !important;
+  width: 40% !important;
+  font-size: medium !important;
+  margin-top: 7% !important;
+  transition: 0.3s ease-in-out !important;
+  border: 2px solid #009d9a !important;
 }
 
 .btn button:hover {
-  border: 2px solid #009d9a;
+  border: 2px solid #009d9a !important;
   cursor: pointer;
-  color: #009d9a;
-  background-color: white;
+  color: #009d9a !important;
+  background-color: white !important;
 }
 
 .last .deadline {
