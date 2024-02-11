@@ -1,5 +1,11 @@
 /** @format */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap");
+
+:root {
+  --primaryColor: #009d9a;
+  --secondaryBackground: #f2f7f8;
+}
+
 :root {
   --primaryColor: rgb(0, 68, 255);
   --secondaryColor: rgba(0, 68, 255, 0.644);
@@ -10,4 +16,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
+}
+button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: var(--primaryColor);
+  color: white !important;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: medium;
+  letter-spacing: 1px;
+  box-shadow: 2px 6px 5px var(--primaryColor);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.295);
 }
