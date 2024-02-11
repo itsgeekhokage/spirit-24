@@ -19,7 +19,7 @@
 .green {
   font-size: 2rem;
   color: var(--primaryColor);
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", serif !important;
   font-weight: bold;
 }
 .right {
@@ -29,15 +29,19 @@
   background-size: fill;
   background-position-x: 70%;
   background-position-y: 10%;
+  background-repeat: no-repeat;
   position: absolute;
   right: 0;
 }
 .black {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", serif !important;
   font-size: 3rem;
   font-weight: 700;
 }
 .secondRow {
   color: rgba(0, 0, 0, 0.685);
   font-size: 2rem;
+}
+.button {
+  font-size: 1.5rem;
 }

@@ -43,9 +43,7 @@ const Events = () => {
         <div className={styles.poster}>
           {eventsDB.map((item, index) => {
             return (
-              <div key={index}>
-                <Card item={item} />
-              </div>
+                <Card item={item} key={index} />
             );
           })}
         </div>

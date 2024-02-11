@@ -13,7 +13,7 @@ const Footer1 = () => {
         <div className={styles.lefttitle}>
           <h3>International Conference on</h3>
           <h1>
-            PHARMACEUTICAL INNOVATIONS & SPIRIT: <span>The Annual Techno-Pharma
+            PHARMACEUTICAL INNOVATIONS & SPIRIT: <br /> <span>The Annual Techno-Pharma
             Conclave</span>
           </h1>
         </div>

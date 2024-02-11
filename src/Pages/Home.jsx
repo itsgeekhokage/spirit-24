@@ -13,7 +13,7 @@ const Home = () => {
           </span>{" "}
           <span className={styles.black}>
             {" "}
-            Pharmaceutical Innovations & Spirit:
+            Pharmaceutical Innovations & <br />Spirit : { ' '}
           </span>{" "}
           <span className={styles.green}>
             The Annual Techno-Pharma Conclave
@@ -22,7 +22,7 @@ const Home = () => {
         <div className={styles.secondRow}>
           April 6-7, 2024 | IIT BHU Varanasi
         </div>
-        <button>Register Now!</button>
+        <button className={styles.button}>Register Now!</button>
       </div>
       <div className={styles.right}></div>
     </div>

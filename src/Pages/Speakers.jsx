@@ -6,7 +6,10 @@ const Card = ({ item }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imagecontainer}>
-        <img src={item.image} alt="" />
+        <img
+          src={item.image}
+          alt=""
+        />
       </div>
 
       <div className={styles.name}>
@@ -68,11 +71,20 @@ const Speakers = () => {
     <div className={styles.page}>
       <h1>Keynote Speakers</h1>
       <div className={styles.list}>
-        {speakers.map((item, index) => {
+        {speakers.slice(0, 3).map((item, index) => {
           return (
-            <div key={index}>
-              <Card item={item} />
-            </div>
+            <Card
+              item={item}
+              key={index}
+            />
+          );
+        })}
+        {speakers.slice(3, 7).map((item, index) => {
+          return (
+            <Card
+              item={item}
+              key={index}
+            />
           );
         })}
       </div>
