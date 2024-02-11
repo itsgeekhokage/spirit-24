@@ -65,17 +65,24 @@ const MainArea = () => {
         <p>
           The Techno-Pharma Conclave, a two-day immersive experience hosted by
           the Department of Pharmaceutical Engineering and Technology at the
-          prestigious Indian Institute of Technology (BHU), Varanasi.
+          prestigious Indian Institute of Technology (BHU), Varanasi. In the
+          dynamic landscape of pharmaceuticals and biotechnology, innovation is
+          the driving force that propels the industry forward. Our conference is
+          designed to cover a spectrum of cutting-edge tracks.
         </p>
-        <p>
-          In the dynamic landscape of pharmaceuticals and biotechnology,
-          innovation is the driving force that propels the industry forward. Our
-          conference is designed to cover a spectrum of cutting-edge tracks,
-          each delving into specialized areas of pharmaceutical and
-          biotechnological research.
-        </p>
-        <div>
-          <button>See Schedule</button>
+        <div className={styles.counterBox}>
+          <div className={styles.counter}>
+            <h1>6+</h1>
+            <p>SPEAKERS</p>
+          </div>
+          <div className={styles.counter}>
+            <h1>150+</h1>
+            <p>ATTENDEES</p>
+          </div>
+          <div className={styles.counter}>
+            <h1>2</h1>
+            <p>DAYS</p>
+          </div>
         </div>
       </div>
     </div>
@@ -88,28 +95,74 @@ const ThirdRow = () => {
       <div className={styles.leftRow}>TRACKS</div>
       <div className={styles.rightRow}>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks1.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Cellular Crescendo : </span>
+            Exploring Interactions
+          </div>
         </div>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks2.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Medicinal Alchemy : </span>
+            The Art and Science of Pharamceutical Chemistry
+          </div>
         </div>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks3.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>The Crystal Conclave : </span>
+            Advancing Pharmaceutics Research
+          </div>
         </div>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks4.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Helix Hack : </span>
+            Unleashing the AI Potential in Drug Discovery
+          </div>
         </div>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks5.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Neuropharmacology Nexus : </span>Approaches in Pharmacology
+          </div>
         </div>
         <div className={styles.themes}>
-          <div><img src="" alt="" /></div>
-          <div>Theme Name</div>
+          <div>
+            <img
+              src="/images/tracks6.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Vaccinating the Future : </span>Innovation in Immunotherapics
+          </div>
         </div>
       </div>
     </div>
@@ -122,6 +175,9 @@ const About = () => {
       <CountDown />
       <MainArea />
       <ThirdRow />
+      <div className={styles.lastRow}>
+        <button>See Schedule</button>
+      </div>
     </div>
   );
 };
