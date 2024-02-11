@@ -1,34 +1,38 @@
 /** @format */
-
-import React, { useState } from "react";
 import Abstract from "../Components/Abstract";
 import styles from "./Event.module.css";
 
-const Card = () => {
-  let [show, setShow] = useState(false);
+const Card = ({ item }) => {
   return (
-    <div
-      className={styles.card}
-      style={show ? {} : { borderBottom: "3px solid var(--primaryColor)" }}>
-      <div className={styles.heading}>heading</div>
-      <div className={styles.icon}>icon</div>
-      <div
-        className={styles.pointer}
-        style={show ? { borderTop: "3px solid var(--primaryColor)" } : {}}>
-        <p onClick={() => setShow((pre) => !pre)}>~</p>
-        {show && (
-          <span>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-            nihil laudantium voluptatem harum tempore porro placeat dolor unde
-            molestiae fuga non, est aliquam assumenda ipsam repellat vitae
-            tempora. Quis pariatur expedita magnam perferendis quasi.
-          </span>
-        )}
+    <div className={styles.card}>
+      <div className={styles.gif}>{item.gif}</div>
+      <div className={styles.name}>{item.eventName}</div>
+      <div className={styles.btn}>
+        <button>Register</button>
       </div>
     </div>
   );
 };
+
 const Events = () => {
+  let eventsDB = [
+    {
+      eventName: "Poster Presentation",
+      gif: "~gif~",
+    },
+    {
+      eventName: "AI Biohackathon",
+      gif: "~gif~",
+    },
+    {
+      eventName: "Pharm Innovate Case Study",
+      gif: "~gif~",
+    },
+    {
+      eventName: "RxQuest: Quiz",
+      gif: "~gif~",
+    },
+  ];
   return (
     <div className={styles.container}>
       <div>
@@ -37,10 +41,13 @@ const Events = () => {
       <div className={styles.event}>
         <h1>Events</h1>
         <div className={styles.poster}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {eventsDB.map((item, index) => {
+            return (
+              <div key={index}>
+                <Card item={item} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

@@ -1,6 +1,127 @@
 /** @format */
 
-#abstract_container_left_button_text {
+.abstract_container {
+  display: flex;
+  background-color: #f2f7f8;
+  border-radius: 30px;
+  height: 10rem;
+  width: 90%;
+  margin: auto;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+
+.photo img {
+  margin-top: 5%;
+  width: 70%;
+  height: 90%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: baseline;
+}
+
+.content .heading {
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  font-size: larger;
+}
+
+.content .para {
+  display: flex;
+  font-size: medium;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.last .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.last .btn button {
+  padding: 1.8%;
+  background-color: #009d9a;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 40%;
+  font-size: medium;
+  margin-top: 7%;
+  transition: 0.3s ease-in-out;
+  border: 2px solid #009d9a;
+}
+
+.btn button:hover {
+  border: 2px solid #009d9a;
+  cursor: pointer;
+  color: #009d9a;
+  background-color: white;
+}
+
+.last .deadline {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .abstract_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f7f8;
+    border-radius: 30px;
+    height: auto;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content .heading {
+    text-align: center;
+  }
+
+  .content .para {
+    padding: 3%;
+    text-align: justify;
+  }
+
+  .last {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .last .deadline {
+    margin-bottom: 2%;
+  }
+}
+
+/* #abstract_container_left_button_text {
   font-size: 190%;
   font-weight: 400;
   margin: 2%;
@@ -88,4 +209,4 @@
   cursor: pointer;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
+} */
