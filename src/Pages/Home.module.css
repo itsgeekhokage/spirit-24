@@ -2,33 +2,42 @@
 
 .home {
   width: 100%;
-  margin-bottom: -10rem;
-  position: relative;
-}
-.container {
-  width: 100%;
-  overflow: hidden;
-  left: 0;
-}
-
-.firstRow {
-  font-weight: bold;
-  position: absolute;
-  top: 1rem;
-  padding-left: 3rem;
-  font-size: 1.2rem;
-}
-.thirdRow {
-  margin-top: -20rem;
-  font-size: 1.2rem;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 4rem;
+  margin-top: 80px;
+  position: relative;
 }
-.thirdRowLeft {
-  font-weight: bolder;
+.left {
+  width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5rem 3rem;
+}
+.green {
+  font-size: 2rem;
+  color: var(--primaryColor);
+  font-family: "Noto Sans", serif;
+  font-weight: bold;
+}
+.right {
+  height: 80vh;
+  width: 70%;
+  background: url("/images/bg.png");
+  background-size: fill;
+  background-position-x: 70%;
+  background-position-y: 10%;
+  position: absolute;
+  right: 0;
+}
+.black {
+  font-family: "Noto Sans", serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.secondRow {
+  color: rgba(0, 0, 0, 0.685);
+  font-size: 2rem;
 }

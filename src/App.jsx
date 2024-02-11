@@ -12,8 +12,8 @@ import Speakers from "./Pages/Speakers";
 const App = () => {
   return (
     <>
-      <Navbar />
       <Home />
+      <Navbar />
       <About />
       <Speakers />
       <Event />
