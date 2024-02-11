@@ -6,11 +6,6 @@
   --secondaryBackground: #f2f7f8;
 }
 
-:root {
-  --primaryColor: rgb(0, 68, 255);
-  --secondaryColor: rgba(0, 68, 255, 0.644);
-}
-
 * {
   margin: 0;
   padding: 0;
