@@ -85,9 +85,10 @@
     background-color: #f2f7f8;
     border-radius: 30px;
     height: auto;
-    width: 95%;
+    width: 90%;
     margin: auto;
     justify-content: center;
+    padding: 1rem;
   }
 
   .photo {
@@ -107,7 +108,7 @@
 
   .content .para {
     padding: 3%;
-    text-align: justify;
+    text-align: center;
   }
 
   .last {
@@ -129,7 +130,9 @@
   .heading h3 {
     font-size: 1.75rem;
   }
+
   .last .btn button {
     margin-top: 0%;
+    width: 80% !important;
   }
 }
