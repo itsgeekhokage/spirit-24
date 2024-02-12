@@ -10,6 +10,7 @@
   position: relative;
   margin: auto;
   border-radius: 1rem;
+  /* overflow: hidden; */
 }
 
 .cd {
@@ -53,6 +54,7 @@
   width: 30%;
   position: relative;
   padding: 0 10rem;
+  display: flex;
   img {
     width: 60%;
     height: 60%;
@@ -156,5 +158,80 @@
     margin-top: 20px;
     font-size: 1.2rem !important;
     padding: 0.5rem 1rem !important;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .page {
+    width: 100%;
+    padding: 0 0 1rem 0;
+  }
+  .cd {
+    display: none;
+  }
+  .CountDown {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .leftMain {
+    width: 100%;
+    padding: 0;
+    position: none;
+  }
+  .rightMain {
+    /* background-color: red; */
+    width: 100%;
+    padding: 0;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .counterBox {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    display: none !important;
+    .counter {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  .thirdRow {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .leftRow {
+    font-size: 2.5rem;
+    font-weight: bold;
+    transform: rotate(0deg);
+    transform-origin: none;
+    margin-bottom: 1.5rem;
+  }
+  .rightRow {
+    width: 100%;
+    flex-direction: column;
+    .themes {
+      width: 85%;
+      span {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .lastRow {
+    width: 82%;
+    margin: auto;
+    align-items: center;
+    justify-content: flex-end !important;
   }
 }

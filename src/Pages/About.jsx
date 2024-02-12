@@ -172,7 +172,7 @@ const ThirdRow = () => {
 const About = () => {
   return (
     <div className={styles.page}>
-      <CountDown />
+      <CountDown className={styles.CountDown} />
       <MainArea />
       <ThirdRow />
       <div className={styles.lastRow}>
