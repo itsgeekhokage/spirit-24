@@ -13,6 +13,11 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+a {
+  text-decoration: none !important;
+  color: #009d9a;
+}
+
 button {
   text-decoration: none;
   padding: 1rem 2rem;

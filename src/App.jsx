@@ -2,7 +2,7 @@
 
 import Navbar from "./Pages/Navbar";
 import Event from "./Pages/Event";
-
+import Footer1 from "./Pages/Footer";
 import React from "react";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
@@ -16,6 +16,7 @@ const App = () => {
       <About />
       <Speakers />
       <Event />
+      <Footer1/>
     </>
   );
 };
