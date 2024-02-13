@@ -167,10 +167,8 @@
     padding: 0 0 1rem 0;
   }
   .cd {
-    display: none;
-  }
-  .CountDown {
-    display: none;
+    width: 90%;
+    margin: auto;
   }
   .main {
     flex-direction: column;
