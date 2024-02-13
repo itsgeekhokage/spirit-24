@@ -5,7 +5,7 @@
   margin: 0;
   background-color: white;
   justify-content: flex-start;
-  width: 100%;
+  width: 100vw;
   height: 80px;
   z-index: 10;
   color: #000;
@@ -28,6 +28,11 @@
   padding: 1rem 2rem;
   text-decoration: none;
 }
+.nav_links a {
+  text-decoration: none !important;
+  color: #009d9a;
+}
+
 .button {
   padding: 8px 14px !important;
   font-size: 18px;
