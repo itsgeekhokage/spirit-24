@@ -65,6 +65,7 @@
   color: aliceblue;
   font-weight: 600;
   position: relative;
+  text-decoration: none;
 }
 
 .menu a::after {
