@@ -48,6 +48,10 @@
   display: flex;
   justify-content: center;
   height: 50%;
+  img {
+    height: 60%;
+    margin-top: 2rem;
+  }
 }
 
 .card .name {

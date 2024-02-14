@@ -5,7 +5,7 @@ import styles from "./Event.module.css";
 const Card = ({ item }) => {
   return (
     <div className={styles.card}>
-      <div className={styles.gif}>{item.gif}</div>
+      <div className={styles.gif}><img src={item.gif}></img></div>
       <div className={styles.name}>{item.eventName}</div>
       <div className={styles.btn}>
         <button>Register</button>
@@ -18,19 +18,19 @@ const Events = () => {
   let eventsDB = [
     {
       eventName: "Poster Presentation",
-      gif: "~gif~",
+      gif: "/events/poster.png",
     },
     {
       eventName: "AI Biohackathon",
-      gif: "~gif~",
+      gif: "/events/aibiohackathon.png",
     },
     {
       eventName: "Pharm Innovate Case Study",
-      gif: "~gif~",
+      gif: "/events/case.png",
     },
     {
       eventName: "RxQuest: Quiz",
-      gif: "~gif~",
+      gif: "/events/quiz.png",
     },
   ];
   return (
@@ -43,7 +43,10 @@ const Events = () => {
         <div className={styles.poster}>
           {eventsDB.map((item, index) => {
             return (
-                <Card item={item} key={index} />
+              <Card
+                item={item}
+                key={index}
+              />
             );
           })}
         </div>

@@ -38,48 +38,45 @@ const Speakers = () => {
   let speakers = [
     {
       name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
+      image: "/speakers/rajeev.png",
       des: "DRUG CONTROLLER GENERAL OF INDIA",
     },
     {
-      name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      name: "Dr. Dulal Panda",
+      image: "/speakers/panda.png",
+      des: "Director, NIPER Mohali",
     },
     {
-      name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      name: "Dr. Birendra Singh",
+      image: "/speakers/birendra.png",
+      des: "President - Global Quality Head",
     },
     {
-      name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      name: "Dr. Anil Kukreja",
+      image: "/speakers/anil.png",
+      des: "Vice President - Medical Affairs and Regulatory",
     },
     {
-      name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      name: "Dr. Amit Vaish",
+      image: "/speakers/amit.png",
+      des: "Principal Scientist",
     },
     {
-      name: "Dr. Rajeev Raghuvanshi",
-      image: "/images/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      name: "Dr. Romi Singh",
+      image: "/speakers/romi.png",
+      des: "Senior Vice President",
+    },
+    {
+      name: "Dr. Anish Chakkumkal",
+      image: "/speakers/anish.png",
+      des: "Associate Scientific Director",
     },
   ];
   return (
     <div className={styles.page}>
       <h1>Keynote Speakers</h1>
       <div className={styles.list}>
-        {speakers.slice(0, 3).map((item, index) => {
-          return (
-            <Card
-              item={item}
-              key={index}
-            />
-          );
-        })}
-        {speakers.slice(3, 7).map((item, index) => {
+        {speakers.slice(0, 7).map((item, index) => {
           return (
             <Card
               item={item}
