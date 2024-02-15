@@ -89,6 +89,21 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .nav {
+    padding: 0 1rem;
+    background-color: var(--primaryColor);
+  }
+  .nav_links > a {
+    display: none;
+  }
+  .icons {
+    display: block;
+  }
+  .button {
+    display: none;
+  }
+}
 @media screen and (max-width: 470px) {
   .nav {
     padding: 0 1rem;

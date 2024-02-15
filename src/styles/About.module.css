@@ -161,13 +161,141 @@
   }
 }
 
+@media screen and (max-width: 1341px) {
+  .page {
+    width: 100%;
+    padding: 0 0 1rem 0;
+  }
+  .cd {
+    width: max-content;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .main {
+    gap: 2rem;
+    height: fit-content;
+  }
+  .leftMain {
+    padding: 0;
+    .img1 {
+      width: 100%;
+      position: static;
+      margin: 0;
+    }
+    .img2 {
+      display: none;
+    }
+  }
+  .rightMain {
+    /* background-color: red; */
+    width: 100%;
+    padding: 0;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .lastRow {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .rightRow {
+    justify-content: space-between !important;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+  .themes {
+    width: calc(50% - 1rem) !important;
+    margin: 0 !important;
+  }
+  .lastRow {
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .page {
+    width: 100%;
+    padding: 0 0 1rem 0;
+  }
+  .cd {
+    width: max-content;
+    margin: auto;
+  }
+  .main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .leftMain {
+    width: 100%;
+    padding: 0;
+    position: none;
+    img {
+      display: none;
+    }
+  }
+  .rightMain {
+    /* background-color: red; */
+    width: 100%;
+    padding: 0;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .counterBox {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    display: none !important;
+    .counter {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  .thirdRow {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .leftRow {
+    font-size: 2.5rem;
+    font-weight: bold;
+    transform: rotate(0deg);
+    transform-origin: none;
+    margin-bottom: 1.5rem;
+  }
+  .rightRow {
+    width: 100%;
+    flex-direction: column;
+    .themes {
+      width: 85% !important;
+      span {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .lastRow {
+    width: 82%;
+    margin: auto;
+    align-items: center;
+    justify-content: flex-end !important;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .page {
     width: 100%;
     padding: 0 0 1rem 0;
   }
   .cd {
-    width: 90%;
+    width: max-content;
     margin: auto;
   }
   .main {
@@ -220,7 +348,7 @@
     width: 100%;
     flex-direction: column;
     .themes {
-      width: 85%;
+      width: 85% !important;
       span {
         font-size: 0.9rem;
       }

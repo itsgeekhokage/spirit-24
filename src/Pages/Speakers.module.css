@@ -63,6 +63,19 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1000px) {
+  .page {
+    padding: 4rem 0rem;
+  }
+  .list {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card {
+    width: 45%;
+  }
+}
 @media screen and (max-width: 470px) {
   .page {
     width: 90%;
