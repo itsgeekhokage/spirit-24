@@ -28,7 +28,7 @@
 
 .card {
   display: flex;
-  width: calc(25% - 2rem);
+  width: calc(25% - 2rem);   
   flex-direction: column;
   height: 300px;
   justify-content: center;
@@ -87,6 +87,13 @@
   border: 2px solid black !important;
   background-color: #ffff !important;
   color: black !important;
+}
+
+
+@media screen and (max-width: 1150px) and (min-width: 470px) {
+   .card{
+    width: calc(50% - 2rem);
+   }
 }
 
 @media screen and (max-width: 470px) {

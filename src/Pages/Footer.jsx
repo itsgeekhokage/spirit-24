@@ -8,7 +8,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 import styles from "./Footer.module.css";
 const Footer1 = () => {
   return (
-    <div className={styles.mainContainer}>
+    <div className={styles.mainContainer} id="footer">
       <div className={styles.container1}>
         <div className={styles.div1a}>
           <p style={{ color: "#009D9A", fontWeight: "bold" }}>
@@ -34,7 +34,7 @@ const Footer1 = () => {
               Email us :&nbsp;
             </h1>
             <p style={{ fontSize: "20px", color: "gray", fontWeight: "bold" }}>
-              spirit@itbhu.ac.in
+              <a href="mailto:spirit@itbhu.ac.in" style={{textDecoration:"none", color:"black"}} >spirit@itbhu.ac.in</a>
             </p>
           </div>
           <div
@@ -55,7 +55,9 @@ const Footer1 = () => {
         </div>
       </div>
       <div className={styles.buttondiv}>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2-HT7FOcfz6kVT3J68mlnMwSsysBclBma52iBUtJCRx22Q/viewform" target="_blank" style={{textDecoration:"none"}}>
         <button className={styles.button}>Register Now</button>
+        </a>
         <div className={styles.atagdiv}>
           <a
             className={styles.atag}

@@ -200,6 +200,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .page{
+    padding-bottom: 2rem;
+  }
   .rightRow {
     justify-content: space-between !important;
     gap: 1rem;
@@ -208,6 +211,7 @@
   .themes {
     width: calc(50% - 1rem) !important;
     margin: 0 !important;
+    font-size: 1rem;
   }
   .lastRow {
     padding-right: 2rem;
@@ -216,7 +220,7 @@
 @media screen and (max-width: 800px) {
   .page {
     width: 100%;
-    padding: 0 0 1rem 0;
+    padding: 2rem 0 1rem 0;
   }
   .cd {
     width: max-content;

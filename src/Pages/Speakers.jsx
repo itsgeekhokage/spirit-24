@@ -19,61 +19,60 @@ const Card = ({ item }) => {
       <div className={styles.desc}>
         <p>{item.des}</p>
       </div>
-      {/* <div className={styles.card_main}>
-        <img
-          src={item.image}
-          alt=""
-        />
-        <div>
-          <h5>{item.name}</h5>
-          <div></div>
-          <p>{item.des}</p>
-        </div>
-      </div> */}
+      <div className={styles.info}>
+        <img src={item.logo} alt="designation" />
+      </div>
     </div>
   );
 };
-
+// spirit-24\src\assets\amgen.png
 const Speakers = () => {
   let speakers = [
     {
       name: "Dr. Rajeev Raghuvanshi",
       image: "/speakers/rajeev.png",
-      des: "DRUG CONTROLLER GENERAL OF INDIA",
+      des: "DCG OF INDIA",
+      logo:"/speakers/dcgi.png"
     },
     {
       name: "Dr. Dulal Panda",
       image: "/speakers/panda.png",
       des: "Director, NIPER Mohali",
+      logo:"/speakers/niper.jpg"
     },
     {
       name: "Dr. Birendra Singh",
       image: "/speakers/birendra.png",
       des: "President - Global Quality Head",
+      logo:"/speakers/mankind.png"
     },
     {
       name: "Dr. Anil Kukreja",
       image: "/speakers/anil.png",
       des: "Vice President - Medical Affairs and Regulatory",
+      logo:"/speakers/astra.png"
     },
     {
       name: "Dr. Amit Vaish",
       image: "/speakers/amit.png",
       des: "Principal Scientist",
+      logo:"/speakers/amgen.png"
     },
     {
       name: "Dr. Romi Singh",
       image: "/speakers/romi.png",
       des: "Senior Vice President",
+      logo:"/speakers/sun-pharma.png"
     },
     {
       name: "Dr. Anish Chakkumkal",
       image: "/speakers/anish.png",
       des: "Associate Scientific Director",
+      logo:"/speakers/janssen.png"
     },
   ];
   return (
-    <div className={styles.page}>
+    <div className={styles.page} id="speakers">
       <h1>Keynote Speakers</h1>
       <div className={styles.list}>
         {speakers.slice(0, 7).map((item, index) => {

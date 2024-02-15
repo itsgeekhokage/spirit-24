@@ -13,10 +13,10 @@ const App = () => {
     <>
       <Home />
       <Navbar />
-      <About />
+      <About  />
       <Speakers />
-      <Event />
-      <Footer1/>
+      <Event  />
+      <Footer1 />
     </>
   );
 };

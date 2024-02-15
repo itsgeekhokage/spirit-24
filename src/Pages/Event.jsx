@@ -34,7 +34,7 @@ const Events = () => {
     },
   ];
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="events">
       <div>
         <Abstract />
       </div>
