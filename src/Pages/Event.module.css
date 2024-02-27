@@ -27,6 +27,7 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   width: calc(25% - 2rem);   
   flex-direction: column;
@@ -34,13 +35,36 @@
   justify-content: center;
   background-color: #f2f7f8;
   border-radius: 10px;
-  /* box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1); */
   transition: 0.2s ease-in-out;
+}
+.style{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2%;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background-color: #009d9a;
+  opacity: 0;
+  z-index: 1;
 }
 
 .card:hover {
-  border: 2px solid black;
-  transform: scale(1.05);
+  /* border: 2px solid #009d9a; */
+  transform: scale(1.02);
+  .style{
+    opacity: 1;
+    animation: my-animation .75s ease forwards;
+  }
+}
+
+@keyframes my-animation {
+  from {
+    width: 0; 
+  }
+  to {
+    width: 100%; 
+  }
 }
 
 .card .gif {
@@ -73,18 +97,18 @@
 
 .card .btn button {
   color: #ffff !important;
-  background-color: black !important;
+  background-color: #009d9a !important;
   padding: 2% !important;
   font-size: medium !important;
   width: 60% !important;
   border-radius: 10px !important;
-  border: 2px solid black !important;
+  /* border: 2px solid black !important; */
   transition: 0.2s ease-in-out !important;
 }
 
 .card .btn button:hover {
   cursor: pointer;
-  border: 2px solid black !important;
+  border: 2px solid #009d9a !important;
   background-color: #ffff !important;
   color: black !important;
 }

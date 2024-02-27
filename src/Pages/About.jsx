@@ -72,16 +72,20 @@ const MainArea = () => {
         </p>
         <div className={styles.counterBox}>
           <div className={styles.counter}>
-            <h1>6+</h1>
+            <h1>8+</h1>
             <p>SPEAKERS</p>
           </div>
           <div className={styles.counter}>
-            <h1>150+</h1>
-            <p>ATTENDEES</p>
+            <h1>12th</h1>
+            <p>Edition</p>
           </div>
           <div className={styles.counter}>
             <h1>2</h1>
             <p>DAYS</p>
+          </div>
+          <div className={styles.counter}>
+            <h1>4+</h1>
+            <p>Events</p>
           </div>
         </div>
       </div>
@@ -138,8 +142,8 @@ const ThirdRow = () => {
             />
           </div>
           <div>
-            <span>Helix Hack : </span>
-            Unleashing the AI Potential in Drug Discovery
+            <span>Pharmacovigilance Pathways: </span>
+            Regulations in Drug Development
           </div>
         </div>
         <div className={styles.themes}>

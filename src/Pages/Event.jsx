@@ -10,6 +10,7 @@ const Card = ({ item }) => {
       <div className={styles.btn}>
         <button>Register</button>
       </div>
+      <div className={styles.style}></div>
     </div>
   );
 };

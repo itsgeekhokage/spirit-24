@@ -19,7 +19,17 @@
   padding: 0 2rem;
   font-weight: bold;
 }
-
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+}
 .nav_links {
   display: flex;
   justify-content: flex-start;

@@ -19,7 +19,8 @@ const Footer1 = () => {
               fontSize: "20px",
               fontWeight: "bold",
               color: "gray",
-            }}>
+            }}
+          >
             Pharmaceutical Innovations & SPIRIT :
           </h1>
           <div className={styles.div1b}>
@@ -29,14 +30,6 @@ const Footer1 = () => {
           </div>
         </div>
         <div style={{ marginTop: "5%" }}>
-          <div className={styles.div1b}>
-            <h1 style={{ color: "#009D9A", fontSize: "18px" }}>
-              Email us :&nbsp;
-            </h1>
-            <p style={{ fontSize: "20px", color: "gray", fontWeight: "bold" }}>
-              <a href="mailto:spirit@itbhu.ac.in" style={{textDecoration:"none", color:"black"}} >spirit@itbhu.ac.in</a>
-            </p>
-          </div>
           <div
             className={styles.div1b}
             style={{
@@ -44,43 +37,65 @@ const Footer1 = () => {
               flexDirection: "row",
               alignItems: "center",
               flexWrap: "wrap",
-            }}>
-            <h1 style={{ color: "#009D9A", fontSize: "18px" }}>
+            }}
+          >
+            <h1 style={{ color: "#009D9A", fontSize: "16px" }}>
               Mobile :&nbsp;
             </h1>
-            <p style={{ fontSize: "20px", color: "gray", fontWeight: "bold" }}>
+            <p style={{ fontSize: "16px", color: "gray", fontWeight: "bold" }}>
               +91 8319456409
+            </p>
+          </div>
+          <div className={styles.div1b}>
+            <h1 style={{ color: "#009D9A", fontSize: "16px" }}>
+              Email us :&nbsp;
+            </h1>
+            <p style={{ fontSize: "18px", color: "gray", fontWeight: "bold" }}>
+              <a
+                href="mailto:spiriit@itbhu.ac.in"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                spirit@iitbhu.ac.in
+              </a>
             </p>
           </div>
         </div>
       </div>
       <div className={styles.buttondiv}>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2-HT7FOcfz6kVT3J68mlnMwSsysBclBma52iBUtJCRx22Q/viewform" target="_blank" style={{textDecoration:"none"}}>
-        <button className={styles.button}>Register Now</button>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2-HT7FOcfz6kVT3J68mlnMwSsysBclBma52iBUtJCRx22Q/viewform"
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <button className={styles.button}>Register Now</button>
         </a>
         <div className={styles.atagdiv}>
           <a
             className={styles.atag}
             href="https://www.facebook.com/IITBHUSPIRIT/"
-            target="_blank">
+            target="_blank"
+          >
             <FaFacebookSquare size={30} />
           </a>
           <a
             className={styles.atag}
             href="https://www.instagram.com/spirit.iit.bhu?igsh=bWZnYXpmOXh4MGVx"
-            target="_blank">
+            target="_blank"
+          >
             <FaInstagram size={30} />
           </a>
           <a
             href="https://twitter.com/Spirit_IIT"
             target="_blank"
-            className={styles.atag}>
+            className={styles.atag}
+          >
             <RiTwitterXFill size={30} />
           </a>
           <a
             href="https://www.linkedin.com/company/spiritiitbhu/"
             target="_blank"
-            className={styles.atag}>
+            className={styles.atag}
+          >
             <FaLinkedin size={30} />
           </a>
         </div>

@@ -339,6 +339,7 @@
   .thirdRow {
     width: 100%;
     flex-direction: column;
+    justify-content: center;
     padding-top: 1rem;
   }
   .leftRow {
@@ -349,8 +350,11 @@
     margin-bottom: 1.5rem;
   }
   .rightRow {
+    margin-left: 7%;
     width: 100%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     .themes {
       width: 85% !important;
       span {

@@ -34,6 +34,7 @@ const Navbar = () => {
     <section className={styles.wrapper}>
       <div className={styles.nav}>
         <div className={styles.title}>
+          <img src="./images/logo_2.png" alt="" />
           <h1>SPIRIT'24</h1>
         </div>
         <div className={styles.nav_links}>
