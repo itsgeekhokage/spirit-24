@@ -1,6 +1,5 @@
 .box{
-    width: 73%;
-    height: 350px;
+    width: 75%;
     margin: 2rem auto 4rem auto;
     img{
         width: 100%;
@@ -10,8 +9,8 @@
 }
 @media (max-width: 470px) {
     .box{
-        width: 82%;
-        height: 300px;
+        padding-left: 2%;
+        width: 90%;
     }
     
 }
