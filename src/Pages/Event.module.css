@@ -29,7 +29,7 @@
 .card {
   position: relative;
   display: flex;
-  width: calc(25% - 2rem);   
+  width: calc(33% - 2rem);   
   flex-direction: column;
   height: 300px;
   justify-content: center;
@@ -82,6 +82,18 @@
   display: flex;
   justify-content: center;
   font-size: large;
+  color: black;
+  padding: 2%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.card .extra {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
   color: black;
   padding: 2%;
   text-align: center;

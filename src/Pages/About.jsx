@@ -84,7 +84,7 @@ const MainArea = () => {
             <p>DAYS</p>
           </div>
           <div className={styles.counter}>
-            <h1>4+</h1>
+            <h1>5+</h1>
             <p>Events</p>
           </div>
         </div>
