@@ -23,5 +23,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "```bash\r   git clone git@github.com:Tonystark121/Spirit-24Website.git\r   cd Spirit-24Website\r   npm install\r ```",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "Geeky Shows",
+  "license": "ISC"
 }
