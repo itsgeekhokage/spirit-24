@@ -8,11 +8,11 @@ const Card = ({ item }) => {
       <div className={styles.gif}><img src={item.gif}></img></div>
       <div className={styles.name}>{item.eventName}</div>
       <div>
-        <a href={item.buttonlink} className={styles.btn} style={{textDecoration:"none"}}>
+        <a href={item.buttonlink} className={styles.btn} style={{textDecoration:"none"}} target="_blank">
           <button>{item.buttontext}</button>
         </a>
       </div>
-      <a className={styles.extra} href={item.targetlink}>{item.targettext}</a>
+      <a className={styles.extra} href={item.targetlink} target="_blank">{item.targettext}</a>
       <div className={styles.style}></div>
     </div>
   );
@@ -50,7 +50,7 @@ const Events = () => {
       buttontext:"Prelims - 20 Mar",
       buttonlink:"",
       targettext:"Pharmacy India App",
-      targetlink:"",
+      targetlink:"https://play.google.com/store/apps/details?id=co.april2019.pindia&hl=en_US&pli=1",
     },
     {
       eventName: "Fabrica: Model Making",
@@ -58,7 +58,7 @@ const Events = () => {
       buttontext:"Register",
       buttonlink:"https://docs.google.com/forms/d/e/1FAIpQLScIxhwD3TAbjcgy6QvDfedgKuA0QwvVdy71nKYPoWOWM7s_zA/viewform?usp=sf_link",
       targettext:"",
-      targetlink:"https://play.google.com/store/apps/details?id=co.april2019.pindia&hl=en_US&pli=1",
+      targetlink:"",
     },
   ];
   return (
